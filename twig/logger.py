@@ -12,7 +12,7 @@ import threading
 # http://github.com/numpde/transport/blob/9b53b7c/pt2pt/20181019-study1/helpers/commons.py
 # http://github.com/numpde/Team03/blob/a9baa85/project2/solution/idiva/logger/logger.py
 
-# TODO: handle meaningfully
+# TODO: handle better
 logging.getLogger("matplotlib").setLevel(logging.WARNING)
 
 LOG_FILE = (pathlib.Path(__file__).parent / "logs")
@@ -71,5 +71,4 @@ logging.config.dictConfig(dict(
 
 log = logging.getLogger(__name__)
 
-# import idiva.utils
-log.info(F"Log file: {LOG_FILE}")
+#log.info(F"Log file: {LOG_FILE}")

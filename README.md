@@ -1,6 +1,6 @@
-# no-name
+# Twig
 
-Sensibly preconfigured logger for Python.
+Minimal-effort reasonably preconfigured logger for Python.
 
 ## Installation
 
@@ -8,6 +8,18 @@ Sensibly preconfigured logger for Python.
 python -m pip install git+https://github.com/numpde/twig.git@c2f9ab0
 ```
 
+## Usage
+
+```python
+from twig import log, LOG_FILE
+log.info("Hello, Dave.")
+log.info(LOG_FILE)
+```
+
 ## Authors
 
-RA
+RA (2020-12-21)
+
+## License
+
+MIT/Expat

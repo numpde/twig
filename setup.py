@@ -2,9 +2,9 @@ import setuptools
 
 setuptools.setup(
     name="twig",
-    version="0.0.1",
-    # author="RA",
-    # author_email="numpde@null.net",
+    version="0.0.2",
+    author="RA",
+    author_email="numpde@null.net",
     keywords="logging",
     description="Lightweight logger",
     # long_description="",
