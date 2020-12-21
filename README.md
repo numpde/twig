@@ -5,7 +5,7 @@ Minimal-effort reasonably preconfigured logger for Python.
 ## Installation
 
 ```{shell}
-python -m pip install git+https://github.com/numpde/twig.git@37a8e24
+python -m pip install git+https://github.com/numpde/twig.git@4d2b52
 ```
 
 ## Usage
