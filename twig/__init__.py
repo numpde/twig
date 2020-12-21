@@ -1,4 +1,4 @@
-from logger import log, LOG_FILE
+from .logger import log, LOG_FILE
 
 # import inspect
 # import pathlib
