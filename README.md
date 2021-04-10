@@ -4,8 +4,10 @@ Minimal-effort reasonably preconfigured logger for Python.
 
 ## Installation
 
+Installing this way show the correct instructions in `pip freeze`:
+
 ```{shell}
-python -m pip install git+https://github.com/numpde/twig.git@64d2b52
+pip install -e git+https://github.com/numpde/twig.git@64d2b52#egg=twig
 ```
 
 ## Usage
